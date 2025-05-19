@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Sender, SenderArguments} from "@ton/core";
 import {useTonConnectUI} from "@tonconnect/ui-react";
 

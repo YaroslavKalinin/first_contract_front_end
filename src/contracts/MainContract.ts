@@ -20,10 +20,14 @@ export function mainContractConfigToCell(config: MainContractConfig): Cell {
 export class MainContract implements Contract {
     readonly init?: { code: Cell, data: Cell };
 
+    // @ts-ignore
     readonly address: Address;
 
     constructor(
+        // @ts-ignore
         readonly address: Address,
+
+        // @ts-ignore
         readonly init?: { code: Cell, data: Cell }
     ) {
     }

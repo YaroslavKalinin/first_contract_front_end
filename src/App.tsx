@@ -1,4 +1,5 @@
 import './App.css'
+// @ts-ignore
 import {TonConnectButton, useTonConnectUI} from "@tonconnect/ui-react";
 import { useMainContract } from "./hooks/useMainContract.ts";
 import {useTonconnect} from "./hooks/useTonconnect.ts";
